@@ -27,7 +27,7 @@ public class EdgeConvertGUI {
    EdgeMenuListener menuListener;
    EdgeRadioButtonListener radioListener;
    EdgeWindowListener edgeWindowListener;
-   CreateDDLButtonListener createDDLListener;
+   CreateDDLButtonListener createDDLListener; 
    private EdgeConvertFileParser ecfp;
    private EdgeConvertCreateDDL eccd;
    private static PrintWriter pw;

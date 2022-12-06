@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EdgeFieldTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2022-12-06T04:03:40" hostname="DESKTOP-2AFGLPI" time="0.025">
+  <properties/>
+  <testcase name="testGetFieldBound" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testGetIsPrimaryKey" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testSetVarcharValue" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testSetFieldBound" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testNullConstructor" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testGetTableID" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testSetDataType" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testGetDataType" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testToString" classname="EdgeFieldTest" time="0.013"/>
+  <testcase name="testSetIsPrimaryKey" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testGetName" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testGetTableBound" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testSetTableID" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testGetDefaultValue" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testGetDisallowNull" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testSetDefaultValue" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testGetNumFigure" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testInvalidDataTypes1Constructor" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testGetVarcharValue" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testSetDisallowNull" classname="EdgeFieldTest" time="0.0"/>
+  <testcase name="testSetBound" classname="EdgeFieldTest" time="0.001"/>
+  <testcase name="testEmptyStringConstructor" classname="EdgeFieldTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

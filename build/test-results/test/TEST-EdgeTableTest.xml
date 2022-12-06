@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EdgeTableTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-12-06T04:03:40" hostname="DESKTOP-2AFGLPI" time="0.02">
+  <properties/>
+  <testcase name="testSetRelatedField" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testMoveFieldUp" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testNullConstructor" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testToString" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testGetRelatedTablesArray" classname="EdgeTableTest" time="0.014"/>
+  <testcase name="testGetRelatedFieldsArray" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testGetName" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testMoveFieldDown" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testGetNativeFieldsArray" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testAddNativeField" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testGetNumFigure" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testInvalidDataTypes1Constructor" classname="EdgeTableTest" time="0.0"/>
+  <testcase name="testAddRelatedTable" classname="EdgeTableTest" time="0.001"/>
+  <testcase name="testEmptyStringConstructor" classname="EdgeTableTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

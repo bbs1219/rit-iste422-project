@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class EdgeConvertFileParserTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class EdgeConvertFileParserTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; EdgeConvertFileParserTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">18</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.141s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">givenMakeArrays_whenALsAreEmpty_thenMethodMakesEmptyArrays</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenMakeArrays_whenALsAreNull_thenMethodDoesNothing</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenMakeArrays_whenALsAreValid_thenMethodMakesArrays</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenOpenFile_whenFileBeginsWithEDGE_ID_thenCallParseEdgeFile</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenOpenFile_whenFileBeginsWithSAVE_ID_thenCallParseSaveFile</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenOpenFile_whenInvalidFileStartsWithEDGE_ID_thenOpenWithoutError</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenOpenFile_whenInvalidFileStartsWithSAVE_ID_thenOpenWithoutError</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenParseEdgeFile_whenFileHasBadLogic_thenMethodAborts</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenParseEdgeFile_whenFileHasBadSyntax_thenArrayListsAreInvalid</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenParseEdgeFile_whenFileIsValid_thenArrayListsAreValid</td>
+<td class="success">0.035s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenParseSaveFile_whenFileHasBadLogic_thenTablesAreInvalid</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenParseSaveFile_whenFileHasBadSyntax_thenTablesAreInvalid</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenParseSaveFile_whenFileIsValid_thenTablesAreValid</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenResolveConnectors_whenArraysUninitialized_thenNullPointer</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenResolveConnectors_whenConnectorsArrayValid_thenConnectorsResolve</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenResolveConnectors_whenFieldConnectsToMultipleTables_thenWarnUser</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenResolveConnectors_whenManyToManyRel_thenWarnUser</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenResolveConnectors_whenTwoFieldEndpoints_thenWarnUser</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:03:40.779 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.780 INFO  EdgeConvertFileParser[434] - Artificially setting tables arraylist, for testing
+23:03:40.780 INFO  EdgeConvertFileParser[439] - Artificially setting fields arraylist, for testing
+23:03:40.781 INFO  EdgeConvertFileParser[444] - Artificially setting connectors arraylist, for testing
+23:03:40.781 INFO  EdgeConvertFileParser[419] - Artificially setting tables array, for testing
+23:03:40.782 INFO  EdgeConvertFileParser[424] - Artificially setting fields array, for testing
+23:03:40.782 INFO  EdgeConvertFileParser[429] - Artificially setting connectors array, for testing
+23:03:40.783 INFO  EdgeConvertFileParser[352] - Making array
+23:03:40.783 INFO  EdgeConvertFileParser[380] - Returning edge tables
+23:03:40.784 INFO  EdgeConvertFileParser[386] - Returning edge fields
+23:03:40.785 INFO  EdgeConvertFileParser[391] - Returning edge connectors
+23:03:40.786 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.787 INFO  EdgeConnector[12] - Constructing EdgeConnector: 9|7|7|null|null
+23:03:40.789 INFO  EdgeConvertFileParser[429] - Artificially setting connectors array, for testing
+23:03:40.790 INFO  EdgeConvertFileParser[424] - Artificially setting fields array, for testing
+23:03:40.790 INFO  EdgeConvertFileParser[419] - Artificially setting tables array, for testing
+23:03:40.791 INFO  EdgeConvertFileParser[267] - Finding Connector endpoints
+23:03:40.792 INFO  EdgeConvertFileParser[272] - Connectors index 1
+23:03:40.792 WARN  EdgeConvertFileParser[301] - Both endpoints are fields, attributes may not be normalized
+23:03:40.793 INFO  EdgeConvertFileParser[453] - Testing method, dialog message: The Edge Diagrammer file
+./oneTable.edg
+contains composite attributes. Please resolve them and try again.
+23:03:40.794 INFO  EdgeConvertFileParser[398] - Returning whether or not the edge connectors are valid: false
+23:03:40.794 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.795 INFO  EdgeConnector[12] - Constructing EdgeConnector: 9|1|2|one|mamy
+23:03:40.796 INFO  EdgeConvertFileParser[444] - Artificially setting connectors arraylist, for testing
+23:03:40.796 INFO  EdgeConvertFileParser[439] - Artificially setting fields arraylist, for testing
+23:03:40.797 INFO  EdgeConvertFileParser[434] - Artificially setting tables arraylist, for testing
+23:03:40.797 INFO  EdgeConvertFileParser[352] - Making array
+23:03:40.797 INFO  EdgeConvertFileParser[380] - Returning edge tables
+23:03:40.798 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.798 INFO  EdgeConnector[12] - Constructing EdgeConnector: 9|1|2|many|many
+23:03:40.800 INFO  EdgeConvertFileParser[429] - Artificially setting connectors array, for testing
+23:03:40.801 INFO  EdgeConvertFileParser[424] - Artificially setting fields array, for testing
+23:03:40.801 INFO  EdgeConvertFileParser[419] - Artificially setting tables array, for testing
+23:03:40.801 INFO  EdgeConvertFileParser[267] - Finding Connector endpoints
+23:03:40.802 INFO  EdgeConvertFileParser[272] - Connectors index 1
+23:03:40.802 WARN  EdgeConvertFileParser[314] - Relationship is many to many, tables may not be normalized
+23:03:40.804 INFO  EdgeConvertFileParser[453] - Testing method, dialog message: There is a many-many relationship between tables
+&quot;Student&quot; and &quot;Course&quot;
+Please resolve this and try again.
+23:03:40.804 INFO  EdgeConvertFileParser[398] - Returning whether or not the edge connectors are valid: false
+23:03:40.805 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./badSyntax.edg
+23:03:40.805 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.808 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./badLogic.edg
+23:03:40.809 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.810 INFO  EdgeConvertFileParser[84] - Parsing Edge file
+23:03:40.812 INFO  EdgeConvertFileParser[88] - Start of a Figure entry
+23:03:40.812 INFO  EdgeConvertFileParser[106] - Figure is entity
+23:03:40.812 WARN  EdgeConvertFileParser[120] - Blank name found
+23:03:40.813 INFO  EdgeConvertFileParser[453] - Testing method, dialog message: There are entities or attributes with blank names in this diagram.
+Please provide names for them and try again.
+23:03:40.813 INFO  EdgeConvertFileParser[403] - Returning tables arraylist
+23:03:40.814 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.814 INFO  EdgeConnector[12] - Constructing EdgeConnector: 9|1|2|one|mamy
+23:03:40.816 INFO  EdgeConvertFileParser[429] - Artificially setting connectors array, for testing
+23:03:40.817 INFO  EdgeConvertFileParser[424] - Artificially setting fields array, for testing
+23:03:40.817 INFO  EdgeConvertFileParser[419] - Artificially setting tables array, for testing
+23:03:40.817 INFO  EdgeConvertFileParser[267] - Finding Connector endpoints
+23:03:40.818 INFO  EdgeConvertFileParser[272] - Connectors index 1
+23:03:40.818 INFO  EdgeConvertFileParser[398] - Returning whether or not the edge connectors are valid: true
+23:03:40.819 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./badSyntax.edg
+23:03:40.819 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.820 INFO  EdgeConvertFileParser[84] - Parsing Edge file
+23:03:40.821 INFO  EdgeConvertFileParser[88] - Start of a Figure entry
+23:03:40.821 INFO  EdgeConvertFileParser[110] - Figure is attribute
+23:03:40.825 INFO  EdgeConvertFileParser[154] - New field added
+23:03:40.825 INFO  EdgeConvertFileParser[88] - Start of a Figure entry
+23:03:40.825 INFO  EdgeConvertFileParser[110] - Figure is attribute
+23:03:40.826 INFO  EdgeConvertFileParser[154] - New field added
+23:03:40.826 INFO  EdgeConvertFileParser[163] - Start of a Connector entry
+23:03:40.831 INFO  EdgeConnector[12] - Constructing EdgeConnector: 9|1|7|null|null
+23:03:40.838 INFO  EdgeConvertFileParser[191] - Connector added.
+Number: 9
+First endpoint: 1
+Second endpoint: 7
+First end style: null
+Second end style: null
+23:03:40.838 INFO  EdgeConvertFileParser[163] - Start of a Connector entry
+23:03:40.839 INFO  EdgeConnector[12] - Constructing EdgeConnector: 10|1|8|null|null
+23:03:40.840 INFO  EdgeConvertFileParser[191] - Connector added.
+Number: 10
+First endpoint: 1
+Second endpoint: 8
+First end style: null
+Second end style: null
+23:03:40.840 INFO  EdgeConvertFileParser[403] - Returning tables arraylist
+23:03:40.841 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./badSyntax.sav
+23:03:40.842 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.844 INFO  EdgeConvertFileParser[201] - Parsing Save file
+23:03:40.844 INFO  EdgeConvertFileParser[244] - Setting info for table
+23:03:40.845 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.sav
+23:03:40.845 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.847 INFO  EdgeConvertFileParser[201] - Parsing Save file
+23:03:40.848 INFO  EdgeConvertFileParser[209] - Table 1 found
+23:03:40.849 INFO  EdgeConvertFileParser[244] - Setting info for table
+23:03:40.850 INFO  EdgeConvertFileParser[260] - Field added
+23:03:40.850 INFO  EdgeConvertFileParser[244] - Setting info for table
+23:03:40.851 INFO  EdgeConvertFileParser[260] - Field added
+23:03:40.852 INFO  EdgeConvertFileParser[403] - Returning tables arraylist
+23:03:40.852 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.853 INFO  EdgeConvertFileParser[434] - Artificially setting tables arraylist, for testing
+23:03:40.853 INFO  EdgeConvertFileParser[439] - Artificially setting fields arraylist, for testing
+23:03:40.853 INFO  EdgeConvertFileParser[444] - Artificially setting connectors arraylist, for testing
+23:03:40.854 INFO  EdgeConvertFileParser[352] - Making array
+23:03:40.854 INFO  EdgeConvertFileParser[380] - Returning edge tables
+23:03:40.854 INFO  EdgeConvertFileParser[386] - Returning edge fields
+23:03:40.854 INFO  EdgeConvertFileParser[391] - Returning edge connectors
+23:03:40.855 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./badLogic.sav
+23:03:40.855 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.857 INFO  EdgeConvertFileParser[201] - Parsing Save file
+23:03:40.857 INFO  EdgeConvertFileParser[209] - Table 1 found
+23:03:40.858 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./twoTables.edg
+23:03:40.859 INFO  EdgeConnector[12] - Constructing EdgeConnector: 9|1|7|null|null
+23:03:40.860 INFO  EdgeConnector[12] - Constructing EdgeConnector: 10|2|7|null|null
+23:03:40.862 INFO  EdgeConvertFileParser[429] - Artificially setting connectors array, for testing
+23:03:40.863 INFO  EdgeConvertFileParser[424] - Artificially setting fields array, for testing
+23:03:40.863 INFO  EdgeConvertFileParser[419] - Artificially setting tables array, for testing
+23:03:40.864 INFO  EdgeConvertFileParser[267] - Finding Connector endpoints
+23:03:40.864 INFO  EdgeConvertFileParser[272] - Connectors index 1
+23:03:40.865 INFO  EdgeConvertFileParser[272] - Connectors index 2
+23:03:40.866 INFO  EdgeConvertFileParser[453] - Testing method, dialog message: The attribute Grade is connected to multiple tables.
+Please resolve this and try again.
+23:03:40.866 INFO  EdgeConvertFileParser[398] - Returning whether or not the edge connectors are valid: false
+23:03:40.867 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./badSyntax.sav
+23:03:40.868 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.873 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.sav
+23:03:40.874 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.877 INFO  EdgeConvertFileParser[74] - Entered file is Save file
+23:03:40.878 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.879 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.884 INFO  EdgeConvertFileParser[84] - Parsing Edge file
+23:03:40.890 INFO  EdgeConvertFileParser[88] - Start of a Figure entry
+23:03:40.891 INFO  EdgeConvertFileParser[106] - Figure is entity
+23:03:40.893 INFO  EdgeConvertFileParser[366] - Checking if STUDENT is a duplicate
+23:03:40.895 INFO  EdgeConvertFileParser[374] - Table STUDENT is not a duplicate
+23:03:40.897 INFO  EdgeConvertFileParser[88] - Start of a Figure entry
+23:03:40.900 INFO  EdgeConvertFileParser[110] - Figure is attribute
+23:03:40.902 INFO  EdgeConvertFileParser[154] - New field added
+23:03:40.903 INFO  EdgeConvertFileParser[88] - Start of a Figure entry
+23:03:40.904 INFO  EdgeConvertFileParser[110] - Figure is attribute
+23:03:40.907 INFO  EdgeConvertFileParser[154] - New field added
+23:03:40.907 INFO  EdgeConvertFileParser[163] - Start of a Connector entry
+23:03:40.908 INFO  EdgeConnector[12] - Constructing EdgeConnector: 9|1|7|null|null
+23:03:40.909 INFO  EdgeConvertFileParser[191] - Connector added.
+Number: 9
+First endpoint: 1
+Second endpoint: 7
+First end style: null
+Second end style: null
+23:03:40.909 INFO  EdgeConvertFileParser[163] - Start of a Connector entry
+23:03:40.910 INFO  EdgeConnector[12] - Constructing EdgeConnector: 10|1|8|null|null
+23:03:40.911 INFO  EdgeConvertFileParser[191] - Connector added.
+Number: 10
+First endpoint: 1
+Second endpoint: 8
+First end style: null
+Second end style: null
+23:03:40.912 INFO  EdgeConvertFileParser[403] - Returning tables arraylist
+23:03:40.913 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.913 INFO  EdgeConvertFileParser[461] - Opening file
+23:03:40.916 INFO  EdgeConvertFileParser[71] - Entered file is Edge file
+23:03:40.918 INFO  EdgeConvertFileParser[36] - Constructing EdgeConvertFileParser
+Constructor file: ./oneTable.edg
+23:03:40.918 INFO  EdgeConvertFileParser[429] - Artificially setting connectors array, for testing
+23:03:40.919 INFO  EdgeConvertFileParser[419] - Artificially setting tables array, for testing
+23:03:40.919 INFO  EdgeConvertFileParser[424] - Artificially setting fields array, for testing
+23:03:40.919 INFO  EdgeConvertFileParser[267] - Finding Connector endpoints
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at Dec 5, 2022, 11:03:41 PM</p>
+</div>
+</div>
+</body>
+</html>

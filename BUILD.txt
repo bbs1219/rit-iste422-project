@@ -1,0 +1,17 @@
+How to generate the deployment artifact for EdgeConvert-1.0-SNAPSHOT
+
+1. Go to https://github.com/bbs1219/rit-iste422-project and clone the repository.
+	(The gradle script to build the artifact must be run within the repository)
+	Clone the repository onto your machine.
+	
+2. Make sure you have gradle installed and updated
+	The easiest way to do this on unix machines is to install zip, then install sdkman.
+	Once you've installed sdkman, you can use that to install the latest version of gradle.
+	If you're on windows you can use WSL to perform these steps, it worked for me. 
+
+3. In a terminal window, navigate to the root directory of the repository on your machine.
+	Type the following command:
+	
+	gradle jar
+
+	The script will generate the deployment artifact in ./build/libs

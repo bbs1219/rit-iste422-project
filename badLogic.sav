@@ -1,0 +1,13 @@
+EdgeConvert Save File
+#Tables#
+Table: 1
+{
+TableName: 
+NativeFields: 7|8
+RelatedTables: 
+RelatedFields: 0|0
+}
+
+#Fields#
+7|StudentSSN|1|0|0|0|1|false|false|
+8|StudentName|1|0|0|0|1|false|false|

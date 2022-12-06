@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EdgeConnectorTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-12-06T04:03:40" hostname="DESKTOP-2AFGLPI" time="0.017">
+  <properties/>
+  <testcase name="testGetEndPoint1" classname="EdgeConnectorTest" time="0.002"/>
+  <testcase name="testGetEndPoint2" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testGetEndStyle1" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testGetEndStyle2" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testGetNumConnector" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testGetIsEP1Field" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testGetIsEP1Table" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testGetIsEP2Field" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testGetIsEP2Table" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testSetIsEP1Field" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testSetIsEP1Table" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testSetIsEP2Field" classname="EdgeConnectorTest" time="0.001"/>
+  <testcase name="testSetIsEP2Table" classname="EdgeConnectorTest" time="0.001"/>
+  <system-out><![CDATA[23:03:40.747 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.748 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.749 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.750 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.752 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.753 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.754 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.755 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.757 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.758 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.759 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.760 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+23:03:40.762 INFO  EdgeConnector[12] - Constructing EdgeConnector: 1|2|3|testStyle1|testStyle2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

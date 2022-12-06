@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class CreateDDLMySQLTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class CreateDDLMySQLTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; CreateDDLMySQLTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.274s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">createCorrectInput</td>
+<td class="success">0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createEmptyInput</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createInvalidFK</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createNoInput</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createNoPK</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">createTablesOnly</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyBooleanConversion</td>
+<td class="success">2.168s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyProductName</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:03:40.588 INFO  EdgeConvertCreateDDL[32] - Constructing EdgeConvertCreateDDL using default constructor.
+23:03:40.606 INFO  CreateDDLMySQL[27] - Constructing CreateDDLMySQL using default constructor.
+23:03:40.630 INFO  EdgeConvertCreateDDL[32] - Constructing EdgeConvertCreateDDL using default constructor.
+23:03:40.630 INFO  CreateDDLMySQL[27] - Constructing CreateDDLMySQL using default constructor.
+23:03:40.631 INFO  EdgeConvertCreateDDL[32] - Constructing EdgeConvertCreateDDL using default constructor.
+23:03:40.632 INFO  CreateDDLMySQL[27] - Constructing CreateDDLMySQL using default constructor.
+23:03:40.632 INFO  CreateDDLMySQL[194] - Generating SQL string
+23:03:40.633 INFO  CreateDDLMySQL[37] - CreateDDL
+23:03:40.645 INFO  CreateDDLMySQL[44] - Database name: TestDB
+23:03:40.646 INFO  CreateDDLMySQL[47] - Generating create table statements
+23:03:40.664 INFO  EdgeConvertCreateDDL[24] - Constructing EdgeConvertCreateDDL
+Tables: [LEdgeTable;@1d131e1b
+Fields: [LEdgeField;@71cf1b07
+23:03:40.665 INFO  EdgeConvertCreateDDL[37] - Initialize
+23:03:40.666 INFO  EdgeConvertCreateDDL[39] - Number of tables: [I@615091b8
+23:03:40.667 INFO  EdgeConvertCreateDDL[43] - Finding maximum bound
+23:03:40.669 INFO  EdgeConvertCreateDDL[52] - Table 1 number of bounds: 0
+23:03:40.670 INFO  EdgeConvertCreateDDL[52] - Table 2 number of bounds: 1
+23:03:40.671 INFO  EdgeConvertCreateDDL[58] - Max bound: 1
+23:03:40.671 INFO  CreateDDLMySQL[21] - Constructing CreateDDLMySQL
+Tables: [LEdgeTable;@1d131e1b
+Fields: [LEdgeField;@71cf1b07
+23:03:40.672 INFO  CreateDDLMySQL[194] - Generating SQL string
+23:03:40.672 INFO  CreateDDLMySQL[37] - CreateDDL
+23:03:40.673 INFO  CreateDDLMySQL[44] - Database name: TestDB
+23:03:40.673 INFO  CreateDDLMySQL[47] - Generating create table statements
+23:03:40.674 INFO  CreateDDLMySQL[58] - Creating table Person
+23:03:40.674 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 2
+23:03:40.675 INFO  EdgeConvertCreateDDL[78] - Field found at index 0
+23:03:40.676 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 3
+23:03:40.676 INFO  EdgeConvertCreateDDL[78] - Field found at index 1
+23:03:40.679 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 2
+23:03:40.680 INFO  EdgeConvertCreateDDL[78] - Field found at index 0
+23:03:40.680 INFO  CreateDDLMySQL[58] - Creating table Dog
+23:03:40.680 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 5
+23:03:40.681 INFO  EdgeConvertCreateDDL[78] - Field found at index 2
+23:03:40.682 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 6
+23:03:40.682 INFO  EdgeConvertCreateDDL[78] - Field found at index 3
+23:03:40.684 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 7
+23:03:40.684 INFO  EdgeConvertCreateDDL[78] - Field found at index 4
+23:03:40.685 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 8
+23:03:40.686 INFO  EdgeConvertCreateDDL[78] - Field found at index 5
+23:03:40.687 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 9
+23:03:40.687 INFO  EdgeConvertCreateDDL[78] - Field found at index 6
+23:03:40.689 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 5
+23:03:40.690 INFO  EdgeConvertCreateDDL[78] - Field found at index 2
+23:03:40.690 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 6
+23:03:40.691 INFO  EdgeConvertCreateDDL[78] - Field found at index 3
+23:03:40.691 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 6
+23:03:40.692 INFO  EdgeConvertCreateDDL[78] - Field found at index 3
+23:03:40.692 INFO  EdgeConvertCreateDDL[63] - Getting table with numFigure 1
+23:03:40.692 INFO  EdgeConvertCreateDDL[66] - Table found at index 0
+23:03:40.693 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 2
+23:03:40.693 INFO  EdgeConvertCreateDDL[78] - Field found at index 0
+23:03:40.702 INFO  EdgeConvertCreateDDL[24] - Constructing EdgeConvertCreateDDL
+Tables: [LEdgeTable;@4cf8b2dc
+Fields: [LEdgeField;@708400f6
+23:03:40.703 INFO  EdgeConvertCreateDDL[37] - Initialize
+23:03:40.703 INFO  EdgeConvertCreateDDL[39] - Number of tables: [I@5829e4f4
+23:03:40.703 INFO  EdgeConvertCreateDDL[43] - Finding maximum bound
+23:03:40.704 INFO  EdgeConvertCreateDDL[52] - Table 1 number of bounds: 0
+23:03:40.704 INFO  EdgeConvertCreateDDL[52] - Table 2 number of bounds: 0
+23:03:40.704 INFO  EdgeConvertCreateDDL[58] - Max bound: 0
+23:03:40.705 INFO  CreateDDLMySQL[21] - Constructing CreateDDLMySQL
+Tables: [LEdgeTable;@4cf8b2dc
+Fields: [LEdgeField;@708400f6
+23:03:40.705 INFO  CreateDDLMySQL[194] - Generating SQL string
+23:03:40.706 INFO  CreateDDLMySQL[37] - CreateDDL
+23:03:40.706 INFO  CreateDDLMySQL[44] - Database name: TestDB
+23:03:40.706 INFO  CreateDDLMySQL[47] - Generating create table statements
+23:03:40.707 INFO  CreateDDLMySQL[58] - Creating table Person
+23:03:40.707 INFO  CreateDDLMySQL[58] - Creating table Dog
+23:03:40.710 INFO  EdgeConvertCreateDDL[24] - Constructing EdgeConvertCreateDDL
+Tables: [LEdgeTable;@4218500f
+Fields: [LEdgeField;@4bff64c2
+23:03:40.710 INFO  EdgeConvertCreateDDL[37] - Initialize
+23:03:40.711 INFO  EdgeConvertCreateDDL[39] - Number of tables: [I@1b2c4efb
+23:03:40.711 INFO  EdgeConvertCreateDDL[43] - Finding maximum bound
+23:03:40.711 INFO  EdgeConvertCreateDDL[52] - Table 1 number of bounds: 0
+23:03:40.712 INFO  EdgeConvertCreateDDL[52] - Table 2 number of bounds: 1
+23:03:40.712 INFO  EdgeConvertCreateDDL[58] - Max bound: 1
+23:03:40.712 INFO  CreateDDLMySQL[21] - Constructing CreateDDLMySQL
+Tables: [LEdgeTable;@4218500f
+Fields: [LEdgeField;@4bff64c2
+23:03:40.712 INFO  CreateDDLMySQL[194] - Generating SQL string
+23:03:40.713 INFO  CreateDDLMySQL[37] - CreateDDL
+23:03:40.713 INFO  CreateDDLMySQL[44] - Database name: TestDB
+23:03:40.713 INFO  CreateDDLMySQL[47] - Generating create table statements
+23:03:40.714 INFO  CreateDDLMySQL[58] - Creating table Person
+23:03:40.714 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 2
+23:03:40.714 INFO  EdgeConvertCreateDDL[78] - Field found at index 0
+23:03:40.715 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 3
+23:03:40.716 INFO  EdgeConvertCreateDDL[78] - Field found at index 1
+23:03:40.717 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 2
+23:03:40.717 INFO  EdgeConvertCreateDDL[78] - Field found at index 0
+23:03:40.718 INFO  CreateDDLMySQL[58] - Creating table Dog
+23:03:40.718 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 5
+23:03:40.718 INFO  EdgeConvertCreateDDL[78] - Field found at index 2
+23:03:40.719 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 6
+23:03:40.720 INFO  EdgeConvertCreateDDL[78] - Field found at index 3
+23:03:40.720 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 7
+23:03:40.721 INFO  EdgeConvertCreateDDL[78] - Field found at index 4
+23:03:40.722 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 5
+23:03:40.722 INFO  EdgeConvertCreateDDL[78] - Field found at index 2
+23:03:40.723 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 6
+23:03:40.723 INFO  EdgeConvertCreateDDL[78] - Field found at index 3
+23:03:40.723 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 6
+23:03:40.724 INFO  EdgeConvertCreateDDL[78] - Field found at index 3
+23:03:40.724 INFO  EdgeConvertCreateDDL[63] - Getting table with numFigure 1
+23:03:40.724 INFO  EdgeConvertCreateDDL[66] - Table found at index 0
+23:03:40.724 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure -1
+null
+23:03:40.725 INFO  EdgeConvertCreateDDL[24] - Constructing EdgeConvertCreateDDL
+Tables: [LEdgeTable;@c35172e
+Fields: [LEdgeField;@c2db68f
+23:03:40.725 INFO  EdgeConvertCreateDDL[37] - Initialize
+23:03:40.726 INFO  EdgeConvertCreateDDL[39] - Number of tables: [I@3cc41abc
+23:03:40.726 INFO  EdgeConvertCreateDDL[43] - Finding maximum bound
+23:03:40.726 INFO  EdgeConvertCreateDDL[58] - Max bound: 0
+23:03:40.727 INFO  CreateDDLMySQL[21] - Constructing CreateDDLMySQL
+Tables: [LEdgeTable;@c35172e
+Fields: [LEdgeField;@c2db68f
+23:03:40.727 INFO  CreateDDLMySQL[194] - Generating SQL string
+23:03:40.727 INFO  CreateDDLMySQL[37] - CreateDDL
+23:03:40.728 INFO  CreateDDLMySQL[44] - Database name: TestDB
+23:03:40.728 INFO  CreateDDLMySQL[47] - Generating create table statements
+23:03:40.730 INFO  EdgeConvertCreateDDL[24] - Constructing EdgeConvertCreateDDL
+Tables: [LEdgeTable;@4566d049
+Fields: [LEdgeField;@61ce23ac
+23:03:40.730 INFO  EdgeConvertCreateDDL[37] - Initialize
+23:03:40.730 INFO  EdgeConvertCreateDDL[39] - Number of tables: [I@3668d4
+23:03:40.731 INFO  EdgeConvertCreateDDL[43] - Finding maximum bound
+23:03:40.731 INFO  EdgeConvertCreateDDL[52] - Table 1 number of bounds: 0
+23:03:40.731 INFO  EdgeConvertCreateDDL[58] - Max bound: 0
+23:03:40.732 INFO  CreateDDLMySQL[21] - Constructing CreateDDLMySQL
+Tables: [LEdgeTable;@4566d049
+Fields: [LEdgeField;@61ce23ac
+23:03:40.732 INFO  CreateDDLMySQL[194] - Generating SQL string
+23:03:40.732 INFO  CreateDDLMySQL[37] - CreateDDL
+23:03:40.733 INFO  CreateDDLMySQL[44] - Database name: TestDB
+23:03:40.733 INFO  CreateDDLMySQL[47] - Generating create table statements
+23:03:40.733 INFO  CreateDDLMySQL[58] - Creating table Person
+23:03:40.734 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 2
+23:03:40.734 INFO  EdgeConvertCreateDDL[78] - Field found at index 0
+23:03:40.735 INFO  EdgeConvertCreateDDL[75] - Getting field with numFigure 3
+23:03:40.735 INFO  EdgeConvertCreateDDL[78] - Field found at index 1
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at Dec 5, 2022, 11:03:41 PM</p>
+</div>
+</div>
+</body>
+</html>
